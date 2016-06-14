@@ -17,7 +17,7 @@ During these tasks you will learn how to do:
 
 ## Presentation 
 
-The slides for this workshop can be found at [http://bouvetnord.github.io/elasticsearch-workshop-slides](http://bouvetnord.github.io/elasticsearch-workshop-slides).
+The slides for this workshop can be found at [http://workshopdudes.github.io/elasticsearch-workshop-slides](http://workshopdudes.github.io/elasticsearch-workshop-slides).
 
 ## Prerequisites - Installation
 
