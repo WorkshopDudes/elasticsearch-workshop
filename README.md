@@ -160,13 +160,19 @@ elasticsearch, open a terminal window and run
 
 #### Windows
 
+Open a terminal, go to the directory where you cloned this repository, and type:
+
 `run-tasks.cmd`
 
 #### Linux
 
+Open a terminal, go to the directory where you cloned this repository, and type:
+
 `./run-tasks.sh`
 
 ### Alternative 2 - Docker
+
+Open a terminal, go to the directory where you cloned this repository, and type:
 
 `make run-tasks`
 
