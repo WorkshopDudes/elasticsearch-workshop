@@ -24,7 +24,7 @@ The slides for this workshop can be found at [http://bouvetnord.github.io/elasti
 Get the code:
 
 ```
-git clone https://github.com/BouvetNord/elasticsearch-workshop
+git clone https://github.com/WorkshopDudes/elasticsearch-workshop
 ```
 
 In order to support multiple platforms, we have provided two installation
