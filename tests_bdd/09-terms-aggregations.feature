@@ -2,6 +2,10 @@ Feature: Aggregations
 
   # Use https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html
 
+  # Note that aggregations appear at the bottom of the response from Elasticsearch. If you
+  # are using the Sense extension for Chrome, you may have to scroll down to the bottom of
+  # the response window to see them.
+
   Scenario: For every topping, count the number of pizzas containing that topping
     Given all pizzas are indexed
     When I make a query
