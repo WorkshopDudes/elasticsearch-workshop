@@ -17,6 +17,13 @@ Feature: Term level queries (exact terms)
           {
             "_source":{
               "topping":[
+                "Marinated Chicken"
+              ]
+            }
+          },
+          {
+            "_source":{
+              "topping":[
                 "Bacon"
               ]
             }
@@ -27,13 +34,6 @@ Feature: Term level queries (exact terms)
                 "Meatballs",
                 "Marinated Beef",
                 "Bacon"
-              ]
-            }
-          },
-          {
-            "_source":{
-              "topping":[
-                "Marinated Chicken"
               ]
             }
           }
