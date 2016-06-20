@@ -152,6 +152,8 @@ Solutions to all tasks can be found [here](solutions).
 
 I recommend using the Chrome extension [Sense](https://chrome.google.com/webstore/detail/sense-beta/lhjgkmllcaadmopgmanpapmpjgmfcfig) during the creation of queries.
 
+For windows users, we have experienced problems when using tab instead of space, therefore only use spaces when you indent your code. 
+
 ### Alternative 1 - Manual installation
 
 Make sure elasticsearch is up and running before trying to run tasks. To start
@@ -175,6 +177,5 @@ Open a terminal, go to the directory where you cloned this repository, and type:
 Open a terminal, go to the directory where you cloned this repository, and type:
 
 `make run-tasks`
-
 
 
