@@ -1,26 +1,20 @@
 {
   "query": {
-    "filtered": {
-      "filter": {
-        "bool": {
-          "must": [
-            {
-              "query": {
-                "match": {
-                  "name": "California"
-                }
-              }
-            },
-            {
-              "query": {
-                "term": {
-                  "topping": "Meatballs"
-                }
-              }
-            }
-          ]
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "name": "California"
+          }
         }
-      }
+      ],
+      "filter": [
+        {
+          "term": {
+            "topping": "Meatballs"
+          }
+        }
+      ]
     }
   }
 }
