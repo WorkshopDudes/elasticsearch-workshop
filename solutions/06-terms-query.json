@@ -8,3 +8,22 @@
     }
   }
 }
+
+// Alternatively, use a filter for improved performance:
+//
+// {
+//   "query": {
+//     "bool": {
+//       "filter": [
+//         {
+//           "terms": {
+//             "topping": [
+//               "Bacon",
+//               "Marinated Chicken"
+//             ]
+//           }
+//         }
+//       ]
+//     }
+//   }
+// }
